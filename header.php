@@ -66,7 +66,7 @@ footer {
 
 
 <header>
-  <h2>Cities</h2>
+  <h2>Student Data Gathering App</h2>
 </header>
 
 
