@@ -11,7 +11,7 @@
 <body>
     
 <div>
-     <form action="" method='post'>
+     <form action="" method='get'>
         <table border='2px' width='500px' height='200px'>
         <thead style='background-color:yellow'>
         <th colspan=5 >Data Gathering App</th>
