@@ -1,0 +1,19 @@
+name: Feature Merge Workflow
+
+on:
+  pull_request:
+    branches:
+      - main
+    types:
+      - closed
+
+jobs:
+  build:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Additional steps
+        run: echo "Feature branch merged to main!"
