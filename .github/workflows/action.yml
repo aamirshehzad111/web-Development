@@ -3,7 +3,7 @@ name: Feature Merge Workflow
 on:
   pull_request:
     branches:
-      - main
+      - master
     types:
       - closed
 
