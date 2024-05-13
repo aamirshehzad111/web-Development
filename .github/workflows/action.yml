@@ -1,11 +1,7 @@
 name: Feature Merge Workflow
 
 on:
-  pull_request:
-    branches:
-      - master
-    types:
-      - closed
+  push:
 
 jobs:
   build:
@@ -19,4 +15,4 @@ jobs:
         run: ls /aaaaaaa/aaaaaaa || exit 1
 
       - name: Additional steps
-        run: echo "${{ github.event.pull_request.number }}"
+        run: echo "test"
