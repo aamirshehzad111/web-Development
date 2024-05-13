@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: exit 1 steps
-        run: ls /aaaaaaa/aaaaaaa || exit 1
+        run: ls /aaaaaaa/aaaaaaa
 
       - name: Additional steps
         run: echo "test"
